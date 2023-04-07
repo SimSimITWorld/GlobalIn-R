@@ -57,3 +57,8 @@ price<-c(300, 200, 100)
 item<-data.frame(NAME=name, PRICE=price)
 item
 WriteXLS('item', 'item.xls')
+
+
+
+fruits6<-read.delim('clipboard', header=T)
+fruits6
